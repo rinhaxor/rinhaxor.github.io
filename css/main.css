@@ -5,17 +5,24 @@ body{
 		max-width: 100%;
 		text-align: center;
 	}
-#header .content .inner .sub-name h3{
-	font-size: 32px;
-	color: #B33030;
-}
 #header .content .inner .sub-name{
-	border: 5px outset red;
-	border-radius: 10px;
-  	background-color: blanchedalmond; 
-  	width: 200px;   
+	border: 10px solid #4B291A;
+	border-radius: 15px;
+  	background-color: #F1E0BF; 
+  	width: 30%;   
 }
-#header .content .inner p {
+#header .content .inner .sub-name h3{
+	font-size: 50px;
+	font-family: 'McLaren', cursive;
+	color: #D5654C;
+  	margin-bottom: auto;
+}
+#header .content .inner .sub-name p{
+	color: #4B291A;
+	font-family: 'Handlee', cursive;
+	font-weight: bolder;
+}
+#header > .content > .inner > p{
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	font-size: 0.8rem;
@@ -28,10 +35,14 @@ nav{
 nav a{
 	text-decoration: none;
 	color: inherit;
+	font-family: 'Architects Daughter', cursive;
 }
 a:hover{
-	color: red;
-
+	color: #4B291A;
+/*	font-weight: bolder;*/
 }
-
+a:visited{
+	color: #4B291A;
+	font-weight: bolder;
+}
 /*	border-bottom: dotted 1px rgba(255, 255, 255, 0.5);*/
