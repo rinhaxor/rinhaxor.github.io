@@ -36,13 +36,21 @@ nav a{
 	text-decoration: none;
 	color: inherit;
 	font-family: 'Architects Daughter', cursive;
+	font-size: 1.5em;
+	padding: 5px 20px;
+	margin: 0 20px;
+/*	display: inline-block;*/
 }
-a:hover{
-	color: #4B291A;
-/*	font-weight: bolder;*/
+nav a:hover{
+/*	color: #4B291A;*/
+	font-weight: bolder;
 }
-a:visited{
+nav a:visited{
 	color: #4B291A;
 	font-weight: bolder;
+}
+.trangchu{
+	background-color: #F1E0BF;
+	width: 40%;
 }
 /*	border-bottom: dotted 1px rgba(255, 255, 255, 0.5);*/
