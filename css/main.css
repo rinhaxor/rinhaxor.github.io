@@ -52,5 +52,6 @@ nav a:visited{
 .trangchu{
 	background-color: #F1E0BF;
 	width: 40%;
+/*	overflow: auto;*/
 }
 /*	border-bottom: dotted 1px rgba(255, 255, 255, 0.5);*/
