@@ -28,12 +28,9 @@ body{
 	font-size: 0.8rem;
 	line-height: 2;
 }
-nav{
-	text-align: center;
-}
 nav a{
 	text-decoration: none;
-	color: inherit;
+/*	color: inherit;*/
 	font-family: 'Architects Daughter', cursive;
 	font-size: 1.5em;
 	padding: 5px 20px;
@@ -41,12 +38,12 @@ nav a{
 /*	display: inline-block;*/
 }
 nav a:hover{
-/*	color: #4B291A;*/
-	font-weight: bolder;
+/*	font-color: #4B291A;*/
+	font-weight: bold;
 }
 nav a:visited{
 	color: #4B291A;
-	font-weight: bolder;
+	font-weight: bold;
 }
 .trangchu{
 	background-color: #F1E0BF;
