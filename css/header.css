@@ -9,15 +9,9 @@
 }
 
 .sub-header a {
-/*  float: right;*/
   color: #f2f2f2;
   text-align: center;
-/*  padding: 3px 16px;*/
   text-decoration: none;
   font-size: 20px;
   font-family: Monospace;
 }
-/*.sub-header a:hover {
-  background: #ddd;
-  color: black;
-}*/

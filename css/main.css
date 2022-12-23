@@ -1,21 +1,23 @@
 body{
 	background-color: #99B19C;
+/*	display: block;*/
+/*background: linear-gradient( rgba(150, 176, 163, 0.8), rgba(150, 176, 163, 0.8) );*/
 }
 #header {
-		max-width: 100%;
-		text-align: center;
-	}
+	max-width: 100%;
+	text-align: center;
+}
 #header .content .inner .sub-name{
 	border: 10px solid #4B291A;
 	border-radius: 15px;
-  	background-color: #F1E0BF; 
-  	width: 30%;   
+	background-color: #F1E0BF; 
+	width: 30%;
 }
 #header .content .inner .sub-name h3{
 	font-size: 50px;
 	font-family: 'McLaren', cursive;
 	color: #D5654C;
-  	margin-bottom: auto;
+	margin-bottom: auto;
 }
 #header .content .inner .sub-name p{
 	color: #4B291A;
@@ -32,16 +34,44 @@ nav a{
 	text-decoration: none;
 	color: inherit;
 	font-family: 'Architects Daughter', cursive;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	padding: 5px 20px;
 	margin: 0 20px;
+	display: inline-block;
 }
 nav a:hover{
 /*	font-color: #4B291A;*/
-	font-weight: bold;
+font-weight: bold;
 }
 .trangchu{
+	margin: auto;
+	top: 1px;
+	bottom: 20px;
+	z-index: 0;
+	background-color: #8BA396;
+	width: 100%;
+	position: relative;
+	
+}
+.trangchu-out{
+	margin: auto;
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	z-index: -1;
+	background-color: #96B0A3;
+	width: 100%;
+}
+.trangchu-inner{
+	margin: auto;
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	z-index: -1;
+	background-color: #8BA396;
+	width: 100%;
+}
+.sub-trangchu{
 	background-color: #F1E0BF;
-	width: 40%;
-/*	overflow: auto;*/
+	width: 50%;
 }
