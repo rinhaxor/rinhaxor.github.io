@@ -1,3 +1,7 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
 body{
 	background-color: #99B19C;
 	margin: 0 0 75px;
@@ -119,12 +123,12 @@ nav a[tabindex]:focus{
 	max-width: 100%;
 	overflow: hidden;
 	position: absolute;
-/*	top: 0;*/
+	top: 0;
 	width: 100%;
 }
 
 #clouds {
-	margin-top: -100px;
+	margin-top: -60px;
 	/*margin-top: 290px;*/
 	z-index: -1;
 	-webkit-animation: cloudsAnim linear 90s infinite;
@@ -156,7 +160,7 @@ nav a[tabindex]:focus{
 		transform: translateX(0)
 	}
 }
-.footer {
+footer {
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 	background-color: #8AA296;
@@ -165,7 +169,5 @@ nav a[tabindex]:focus{
 	width: 100%;
 	font-size: 0.8em;
 	padding: 10px 0;
-	bottom: -75px;
-/*	margin: 25px 0 -10px 0;*/
-/*	bottom: 0;*/
+	bottom: 0;
 }
