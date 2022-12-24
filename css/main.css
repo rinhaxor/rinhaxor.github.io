@@ -1,5 +1,7 @@
 body{
 	background-color: #99B19C;
+	margin: 0 0 75px;
+	padding: 0;
 }
 ::-webkit-scrollbar {
 	display: none;
@@ -109,7 +111,7 @@ nav a[tabindex]:focus{
 	width: 50%;
 }
 /**/
-#animatedObjects {
+#animated {
 	/*background-color: red;*/
 	z-index: -1;
 	height: 100%;
@@ -117,12 +119,12 @@ nav a[tabindex]:focus{
 	max-width: 100%;
 	overflow: hidden;
 	position: absolute;
-	top: 0;
+/*	top: 0;*/
 	width: 100%;
 }
 
 #clouds {
-	margin-top: -110px;
+	margin-top: -100px;
 	/*margin-top: 290px;*/
 	z-index: -1;
 	-webkit-animation: cloudsAnim linear 90s infinite;
@@ -158,8 +160,12 @@ nav a[tabindex]:focus{
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 	background-color: #8AA296;
+	position: absolute;
 	color: #4F695C;
+	width: 100%;
 	font-size: 0.8em;
 	padding: 10px 0;
-	margin: 25px 0 -10px 0;
+	bottom: -75px;
+/*	margin: 25px 0 -10px 0;*/
+/*	bottom: 0;*/
 }
