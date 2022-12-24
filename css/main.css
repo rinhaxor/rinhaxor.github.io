@@ -2,7 +2,7 @@ body{
 	background-color: #99B19C;
 }
 ::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 #header {
 	max-width: 100%;
@@ -35,33 +35,33 @@ body{
 	line-height: 2;
 }
 .icon {
-  position: absolute;
-  display: flex;
-  top: -30px;
-  right: 10px;
-  color: #7C8F84;
-  font-size: 2.5rem;
+	position: absolute;
+	display: flex;
+	top: -30px;
+	right: 10px;
+	color: #7C8F84;
+	font-size: 2.5rem;
 }
 
 .icon li {
-  list-style: none;
-  margin: 4px;
+	list-style: none;
+	margin: 4px;
 }
 
 .icon li a {
-  color: #7C8F84;
-  text-decoration: none;
-  transition: 0.5s;
+	color: #7C8F84;
+	text-decoration: none;
+	transition: 0.5s;
 }
 
 .icon li a:hover {
 /*  background: #03a9f4;*/
-  color: #56635B;
+color: #56635B;
 }
 
 nav a{
 	text-decoration: none;
-	color: inherit;
+	color: #4B291A;
 	font-family: 'Architects Daughter', cursive;
 	font-size: 1.7em;
 	padding: 5px 20px;
@@ -71,6 +71,9 @@ nav a{
 nav a:hover{
 /*	font-color: #4B291A;*/
 font-weight: bold;
+}
+nav a[tabindex]:focus{
+	font-weight: bold;
 }
 .trangchu{
 	margin: auto;
@@ -107,47 +110,56 @@ font-weight: bold;
 }
 /**/
 #animatedObjects {
-    /*background-color: red;*/
-    z-index: -1;
-    height: 100%;
-    max-height: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    width: 100%;
+	/*background-color: red;*/
+	z-index: -1;
+	height: 100%;
+	max-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
 
 #clouds {
-    margin-top: -110px;
-    /*margin-top: 290px;*/
-    z-index: -1;
-    -webkit-animation: cloudsAnim linear 90s infinite;
-    animation: cloudsAnim linear 90s infinite;
-    background-image: url("../imgs/clouds.png");
-    background-position: 0 100px;
-    background-repeat: repeat-x;
-    height: 100%;
-    min-width: 2732px;
-    position: absolute;
-    width: 200%;
-    opacity: 0.2;
-    filter: hue-rotate(215deg);
+	margin-top: -110px;
+	/*margin-top: 290px;*/
+	z-index: -1;
+	-webkit-animation: cloudsAnim linear 90s infinite;
+	animation: cloudsAnim linear 90s infinite;
+	background-image: url("../imgs/clouds.png");
+	background-position: 0 100px;
+	background-repeat: repeat-x;
+	height: 100%;
+	min-width: 2732px;
+	position: absolute;
+	width: 200%;
+	opacity: 0.2;
+	filter: hue-rotate(215deg);
 }
 @-webkit-keyframes cloudsAnim {
-    0% {
-        -webkit-transform: translateX(-1366px)
-    }
-    100% {
-        -webkit-transform: translateX(0)
-    }
+	0% {
+		-webkit-transform: translateX(-1366px)
+	}
+	100% {
+		-webkit-transform: translateX(0)
+	}
 }
 
 @keyframes cloudsAnim {
-    0% {
-        transform: translateX(-1366px)
-    }
-    100% {
-        transform: translateX(0)
-    }
+	0% {
+		transform: translateX(-1366px)
+	}
+	100% {
+		transform: translateX(0)
+	}
+}
+.footer {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	background-color: #8AA296;
+	color: #4F695C;
+	font-size: 0.8em;
+	padding: 10px 0;
+	margin: 25px 0 -10px 0;
 }
