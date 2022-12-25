@@ -9,8 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Handlee">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Architects+Daughter">
 	<script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
-
 	<title>Le Rin - Profile</title>
 </head>
 <body>
@@ -18,11 +18,11 @@
 		<div id="clouds"></div>
 	</div>
 	<!-- Header -->
-	<header id="header">
+	<header id="header" class="unselectable">
 		<ul class="icon">
 			<li>
 				<a href="" onclick="email()" class="fa fa-envelope"></a>
-				<a href="https://github.com/rinhaxor" class="fa fa-github" target="_blank"></a>
+				<a href="" onclick="github()" class="fa fa-github"></a>
 				<a href="https://steamcommunity.com/id/RinHaxor" class="fa fa-steam-square" target="_blank"></a>
 				<a href="https://www.facebook.com/RinLe.Main/" class="fa fa-facebook-square" target="_blank"></a>
 			</li>
@@ -42,37 +42,76 @@
 				</p>
 			</div>
 		</div>
-
 	</header>
 	<!-- End Header -->
-	<center>
-		<div class="trangchu">
-			<div class="trangchu-out">
-				<div class="trangchu-inner"></div>
+	<div class="trangchu unselectable">
+		<div class="trangchu-out">
+			<div class="trangchu-inner"></div>
+		</div>
+		<div class="sub-trangchu">
+			<div class="sub-trangchu-nav unselectable">
+				<div id="nav-sothich" class="trangchu-element">Sở Thích</div>
+				<div id="nav-lienhe" class="trangchu-element">Liên hệ</div>
 			</div>
-			<div class="sub-trangchu">
-				<nav style="border-bottom: 5px solid #CBBEA3;">
-					<a href="frames/hobbies.html" tabindex="1" target="main">Sở thích</a>
-					<!-- <a href="frames/project.html" tabindex="1" target="main">Dự án</a> -->
-					<a href="frames/contact.html" tabindex="1" target="main">Liên hệ</a>
-				</nav>
-			<!--
-				<span class="banner-star">&#9733;&#9733;&#9733;&#9733;&#9733;</span><br/>  5 -->
-                    <!--
-                    	<span class="banner-star">&#9733;&#9733;&#9733;&#9733;&#9734;</span><br/>  4 -->
-                    <!--
-                    	<span class="banner-star">&#9733;&#9733;&#9733;&#9734;&#9734;</span><br/>  3 -->
-                    <!--
-                    	<span class="banner-star">&#9733;&#9733;&#9734;&#9734;&#9734;</span><br/>  2 -->
-                    <!--
-                    	<span class="banner-star">&#9733;&#9734;&#9734;&#9734;&#9734;</span><br/>  1 -->
-                    	<iframe src="frames/hobbies.html" name="main" style="border: 1px dashed #6C8779; margin: 10px auto 0; max-width: 650px; width: 100%; height: 500px;" scrolling="no"></iframe>
-                    <!-- </div>
-                    <div class="footer"><span class="fa fa-copyright"></span> Rin's | Cập nhật lần cuối: Tháng 12 Năm 2022</div> -->
-                </div>
-            </center>
-            <footer>
-            	<span class="fa fa-copyright"></span> Rin's | Cập nhật lần cuối: Tháng 12 Năm 2022
-            </footer>
-        </body>
-        </html>
+			<div class="trangchu-div"></div>
+			<div class="trangchu-tab-container">
+				<!-- SỞ THÍCH -->
+				<div id="trangchu-sothich" class="trangchu-tab-content" style="display: block;">
+					<div class="trangchu-h">CODING</div>
+					<div class="trangchu-p">Một số ngôn ngữ lập trình mà tôi biết và giúp cho tôi làm việc sau này:<br>
+					</div>
+					<div class="trangchu-list">
+							<!-- Tier 1 - > 5
+							★☆☆☆☆ Gà
+							★★☆☆☆ Gà nâng cấp
+							★★★☆☆ Gà công nghiệp
+							★★★★☆ Gà nhà nuôi
+							★★★★★ Siu cấp
+						-->
+						- JAVA
+						<span class="trangchu-star">★☆☆☆☆</span>
+						<br>
+						- HTML/PHP/CSS
+						<span class="trangchu-star">★☆☆☆☆</span>
+						<br>
+						- PHP/SQL
+						<span class="trangchu-star">★☆☆☆☆</span>
+						<br>
+						- Javascript/Bootstrap
+						<span class="trangchu-star">★☆☆☆☆</span>
+					</div>
+					<div class="trangchu-p-div"></div>
+					<div class="trangchu-h">LANGUAGES</div>
+					<div class="trangchu-p">Ngoại ngữ của tôi rất tệ, nhưng nó rất cần thiết để tôi tìm tài liệu hahha<br></div>
+					<div class="trangchu-list">
+						- English
+						<span class="trangchu-sub">(Nó rất cần thiết cho tôi và ngành mà tôi đang học, nhưng tôi khá là tệ về ngoại ngữ)</span><br>
+						- Chinese
+						<span class="trangchu-sub">(Tôi khá thích nghe tiếng Trung, tôi có thể hiểu được 1 vài từ trong tiếng Trung hahah)</span><br>
+						- Japanse
+						<span class="trangchu-sub">(Ngôn ngữ mà tôi được học vào năm lớp 11, tôi cảm thấy khá là vui khi biết nó)</span>
+					</div>
+					<div class="trangchu-p-div"></div>
+					<div class="trangchu-h">HOBBIES</div>
+					<div class="trangchu-p">Một số sở thích của tôi</div>
+					<div class="trangchu-list">
+						- Games (Minecraft, LMHT... Và các game Offline khác)<br>
+						- Musics (Tôi nghe nhạc rất thường xuyên vì nó giúp tôi thư giản đầu óc rất tốt)
+					</div>
+				</div>
+				<!-- LIÊN HỆ -->
+				<div id="trangchu-lienhe" class="trangchu-tab-content" style="display: none;">
+					<div class="trangchu-h">Liên hệ với tôi qua mạng xã hội:</div>
+					<div class="trangchu-p">
+						- Facebook: Rin Lê <br>
+						- Email: rinle10032003@gmail.com
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="unselectable">
+		<span class="fa fa-copyright"></span> Rin's | Cập nhật lần cuối: Tháng 12 Năm 2022
+	</footer>
+</body>
+</html>
