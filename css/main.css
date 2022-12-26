@@ -223,7 +223,6 @@ body{
 
 #clouds {
 	margin-top: -50px;
-	z-index: -1;
 	-webkit-animation: cloudsAnim linear 90s infinite;
 	animation: cloudsAnim linear 90s infinite;
 	background-image: url("../imgs/clouds.png");
