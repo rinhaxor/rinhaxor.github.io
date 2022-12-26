@@ -17,22 +17,54 @@ body{
 .content{
 	margin-top: 50px;
 }
-#header .content .inner .sub-name{
-	border: 10px solid #4B291A;
-	border-radius: 15px;
-	background-color: #F1E0BF; 
-	width: 30%;
+/*Name*/
+.name-container{
+	position: relative;
+	width: 100%;
+	margin-top: 110px;
 }
-#header .content .inner .sub-name h3{
-	font-size: 50px;
-	font-family: 'McLaren', cursive;
-	color: #D5654C;
-	margin-bottom: auto;
+.name-outer{
+	background-color: #4B291A;
+    padding: 10px;
+    width: 30%;
+    border-radius: 15px;
+    margin: 0 auto;
 }
-#header .content .inner .sub-name p{
-	color: #4B291A;
-	font-family: 'Handlee', cursive;
-	font-weight: bolder;
+.name-inner{
+	background-color: #F1E0BF;
+    border-radius: 10px;
+    padding: 25px 0;
+}
+.name{
+	font-weight: bold;
+    font-family: 'McLaren', cursive;
+    font-size: 3.7em;
+    text-align: center;
+    color: #D5654C;
+    margin: 0 auto;
+}
+.name-sub{
+	text-align: center;
+    color: #4B291A;
+    font-size: 1.5em;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+}
+/*--------END Name-------*/
+.note{
+	font-family: 'Ubuntu', sans-serif;
+    color: dimgrey;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    margin: 15px auto 0;
+}
+.note-div{
+	margin: 2px auto 5px;
+    width: 35%;
+    height: 2px;
+    background-color: #8AA095;
+    border-radius: 5px;
 }
 #header > .content > .inner > p{
 	text-transform: uppercase;
@@ -144,7 +176,7 @@ body{
     position: relative;
 }
 .trangchu-p{
-	font-family: 'McLaren', cursive;
+	font-family: 'McLaren';
     font-size: 1.0em;
     margin-bottom: 3px;
 }
@@ -257,16 +289,12 @@ canvas {
   width: 100%;
 }
 .noel{
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS";
     font-size: 24px;
     color: #B93C3F;
     left: 50%;
-    height: 0;
-/*    top: 10%;*/
     padding: 0;
-    margin: 0;
+    margin-top: -1%;
     position: absolute;
     transform: translate(-50%,-50%);
-/*    display: inline-block;*/
-/*    z-index: 2;*/
 }
