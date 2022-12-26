@@ -240,3 +240,31 @@ footer {
 	padding: 10px 0;
 	bottom: 0;
 }
+/*------------------------*/
+canvas {
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.page {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.noel{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    color: #B93C3F;
+    left: 50%;
+    top: 10%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
