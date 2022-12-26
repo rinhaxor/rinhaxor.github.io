@@ -10,18 +10,17 @@ body{
 ::-webkit-scrollbar {
 	display: none;
 }
-#header {
+/*#header {
 	max-width: 100%;
 	text-align: center;
 }
 .content{
 	margin-top: 50px;
-}
-/*Name*/
+}*/
 .name-container{
 	position: relative;
 	width: 100%;
-	margin-top: 110px;
+	margin-top: 100px;
 }
 .name-outer{
 	background-color: #4B291A;
@@ -50,7 +49,6 @@ body{
     font-family: 'Handlee', cursive;
     font-weight: bold;
 }
-/*--------END Name-------*/
 .note{
 	font-family: 'Ubuntu', sans-serif;
     color: dimgrey;
@@ -66,12 +64,12 @@ body{
     background-color: #8AA095;
     border-radius: 5px;
 }
-#header > .content > .inner > p{
+/*#header > .content > .inner > p{
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	font-size: 0.8rem;
 	line-height: 2;
-}
+}*/
 .icon {
 	position: absolute;
 	display: flex;
@@ -98,7 +96,6 @@ body{
 .trangchu{
 	position: relative;
 }
-/*CSS phân đoạn Background*/
 .trangchu-bg-out{
 	margin: auto;
 	position: absolute;
@@ -126,7 +123,6 @@ body{
 	background-color: #8BA396;
 	width: 100%;
 }
-/*----------------------------------*/
 .sub-trangchu{
 	border-radius: 3px;
 	background-color: #F1E0BF;
@@ -134,7 +130,6 @@ body{
 	margin: 30px auto 0;
 	color: #D5654C;
 }
-/*Nav Bars ( Sở thích, Dự án, Liên hệ)*/
 .sub-trangchu-nav{
 	text-align: center;
 }
@@ -150,7 +145,6 @@ body{
 .trangchu-element:hover{
 	font-weight: bold;
 }
-/*----------------------------------*/
 .trangchu-div{
 	height: 5px;
 	width: 100%;
@@ -216,7 +210,6 @@ body{
     cursor: default;
 }
 
-/**/
 #animated {
 	z-index: -1;
 	height: 100%;
@@ -229,8 +222,7 @@ body{
 }
 
 #clouds {
-	margin-top: -60px;
-	/*margin-top: 290px;*/
+	margin-top: -50px;
 	z-index: -1;
 	-webkit-animation: cloudsAnim linear 90s infinite;
 	animation: cloudsAnim linear 90s infinite;
@@ -272,7 +264,6 @@ footer {
 	padding: 10px 0;
 	bottom: 0;
 }
-/*------------------------*/
 canvas {
   padding: 0;
   margin: 0;
