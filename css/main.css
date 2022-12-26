@@ -139,7 +139,7 @@ body{
 	text-align: center;
 }
 .trangchu-element{
-	font-family: 'Architects Daughter';
+	font-family: 'Architects Daughter', cursive;
 	color: #4B291A;
 	padding: 5px 20px;
 	display: inline-block;
@@ -181,7 +181,7 @@ body{
     margin-bottom: 3px;
 }
 .trangchu-list{
-	font-family: 'McLaren';
+	    font-family: 'McLaren', cursive;
     font-size: 0.85em;
     margin-bottom: 3px;
 }
@@ -198,7 +198,7 @@ body{
 }
 .trangchu-sub{
 	color: #92AB9E;
-    font-size: 0.8em;
+    font-size: 0.9em;
     vertical-align: middle;
     margin: auto auto;
 }
@@ -289,7 +289,7 @@ canvas {
   width: 100%;
 }
 .noel{
-	font-family: "Comic Sans MS", cursive;
+	font-family: "Comic Sans MS";
     font-size: 24px;
     color: #B93C3F;
     left: 50%;
