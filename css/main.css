@@ -274,7 +274,7 @@ body{
     -webkit-animation: glowing 1.5s linear infinite;
     animation: glowing 1.5s linear infinite alternate;
 }
-.stars{
+#stars{
 	font-size: 400px;
   position: relative;
   height: 80vh;
@@ -282,16 +282,16 @@ body{
   overflow:hidden;
   opacity:0.5;
 }
-/*.stars:after{
+#stars:after{
 	content: "";
   bottom:0;
   width:100%;
   height:100%;
   position:absolute;
   left:0;
-}*/
+}
 .star{
-position: absolute;
+  position: absolute;
   top: 100px;
   left: 100px;
   width: 10px;
@@ -312,7 +312,7 @@ position: absolute;
   position: absolute;
   border-radius:50%;
   left:50%;
-    background: #99B19C;
+  background: #99B19C;
 
 }
 .star:after {
@@ -370,29 +370,21 @@ position: absolute;
   -ms-animation: glitter 2.5s  linear 0s infinite normal;
   -o-animation: glitter 2.5s  linear 0s infinite normal;
 }
-.bigstar:before{
-content: "";
+.bigstar:before, .bigstar:after{
+  content: "";
   width: 20px;
   height: 20px;
-  background: $BKcolor;
+  background: #99B19C;
   top:-50%;
   position: absolute;
-  border-radius:50%;
-  left: 50%;
-    background: #99B19C;
-
+  border-radius:50%
 }
-.bigstar:after{
-	content: "";
-  width: 20px;
-  height: 20px;
-  background: $BKcolor;
-  top:-50%;
-  position: absolute;
-  border-radius:50%;
-  left: -50%;
-    background: #99B19C;
+.bigstar:before{
+  left:50%;
+}
 
+.bigstar:after {
+  left:-50%;
 }
 .bigstar-bottom{
 	position: absolute;
@@ -402,28 +394,21 @@ content: "";
   height: 20px;
   overflow: hidden;
 }
-.bigstar-bottom:before{
-	content: "";
+.bigstar-bottom:before,.bigstar-bottom:after {
+  content: "";
   width: 20px;
   height: 20px;
-  background: $BKcolor;
+  background: #99B19C;
   top:50%;
   position: absolute;
   border-radius:50%;
-  left: 50%;
-    background: #99B19C;
-
 }
-.bigstar-bottom:after{
-	content: "";
-  width: 20px;
-  height: 20px;
-  top:50%;
-  position: absolute;
-  border-radius:50%;
-  left: -50%;
-    background: #99B19C;
+.bigstar-bottom:before{
+  left:50%;
+}
 
+.bigstar-bottom:after {
+  left:-50%;
 }
 footer {
 	font-family: 'Ubuntu', sans-serif;
@@ -461,3 +446,44 @@ footer {
     position: absolute;
     transform: translate(-50%,-50%);
 }*/
+@keyframes glowing {
+  from {box-shadow: 0px 0px 100px 10px #fff;}
+  to { box-shadow: 0px 0px 140px 20px #fff;}
+}
+
+@-webkit-keyframes glowing {
+  from {-webkit-box-shadow: 0px 0px 540px 50px #fff;}
+  to {-webkit-box-shadow: 0px 0px 240px 60px #fff;}
+}
+
+@-moz-keyframes glowing {
+  from {-moz-box-shadow: 0px 0px 540px 50px #fff;}
+  to {-moz-box-shadow: 0px 0px 240px 60px #fff;}
+}
+
+
+@-moz-keyframes glitter {
+  0% {-moz-transform: scale(0.8); opacity: 1;}
+  25% {-moz-transform: scale(0.5); opacity: 0.5;}
+  50% {-moz-transform: scale(0.8); opacity: 1;}
+  75% {-moz-transform: scale(0.5); opacity: 0.5;}
+  100% { -moz-transform: scale(0.8); opacity: 1;}
+} 
+
+
+@-webkit-keyframes glitter {
+  0% {-webkit-transform: scale(0.8); opacity: 1;}
+  25% {-webkit-transform: scale(0.5); opacity: 0.5;}
+  50% {-webkit-transform: scale(0.8); opacity: 1;}
+  75% {-webkit-transform: scale(0.5); opacity: 0.5;}
+  100% { -webkit-transform: scale(0.8); opacity: 1;}
+}
+
+
+@-moz-keyframes glitter {
+  0% {-moz-transform: scale(1.0); opacity: 1;}
+  25% {-moz-transform: scale(0.5);opacity: 0.5;}
+  50% {-moz-transform: scale(1.0); opacity: 1;}
+  75% { -moz-transform: scale(0.5); opacity: 0.5;}
+  100% { -moz-transform: scale(1.0); opacity: 1;}
+}
