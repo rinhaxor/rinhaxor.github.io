@@ -178,6 +178,16 @@ body{
     font-size: 0.85em;
     margin-bottom: 3px;
 }
+.img-text > .trangchu-list{
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+}
+.trangchu-list > img{
+  min-width: 110px;
+  width: 100%;
+  height: 100%;
+}
 .trangchu-star{
 	color: #92AB9E;
     font-size: 1.3em;
