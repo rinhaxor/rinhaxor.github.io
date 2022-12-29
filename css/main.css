@@ -180,21 +180,31 @@ body{
 }
 .img-text > .trangchu-list{
   display: flex;
+  border-radius: 5px;
   justify-content: space-between;
   text-align: justify;
+  background-color: #2C3333;
+  color: #C69749;
+}
+.img-text > .trangchu-h{
+  text-align: center;
+}
+.capbac{
+  margin-left: 5rem;
 }
 .trangchu-list > img{
   min-width: 110px;
   width: 100%;
   height: 100%;
+  border-radius: 3px;
 }
 .trangchu-star{
 	color: #92AB9E;
-    font-size: 1.3em;
-    overflow: hidden;
-    margin: auto auto;
-    letter-spacing: -3px;
-    line-height: 0.8em;
+  font-size: 1.3em;
+  overflow: hidden;
+  margin: auto auto;
+  letter-spacing: -3px;
+  line-height: 0.8em;
 }
 .trangchu-p-div{
 	height: 10px;
