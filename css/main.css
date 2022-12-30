@@ -197,6 +197,7 @@ body{
 }
 .capbac{
   margin-left: 4rem;
+  font-size: 0.7rem;
 }
 .trangchu-list > img{
   min-width: 110px;
@@ -204,7 +205,6 @@ body{
   height: 100%;
   border-radius: 5px;
 }
-
 .trangchu-star{
 	color: #92AB9E;
   font-size: 1.3em;
