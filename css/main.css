@@ -188,6 +188,15 @@ body{
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #C69749;
 }
+.ip-server{
+/*  position: absolute;*/
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #2C3333;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #C69749;
+}
 .img-text > .trangchu-list > p{
   padding: 9px;
 }
