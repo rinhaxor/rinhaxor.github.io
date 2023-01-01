@@ -24,45 +24,45 @@ body{
 }
 .name-outer{
 	background-color: #4B291A;
-    padding: 10px;
-    width: 30%;
-    border-radius: 15px;
-    margin: 0 auto;
+  padding: 10px;
+  width: 30%;
+  border-radius: 15px;
+  margin: 0 auto;
 }
 .name-inner{
 	background-color: #F1E0BF;
-    border-radius: 10px;
-    padding: 25px 0;
+  border-radius: 10px;
+  padding: 25px 0;
 }
 .name{
 	font-weight: bold;
-    font-family: 'McLaren', cursive;
-    font-size: 3.7em;
-    text-align: center;
-    color: #D5654C;
-    margin: 0 auto;
+  font-family: 'McLaren', cursive;
+  font-size: 3.7em;
+  text-align: center;
+  color: #D5654C;
+  margin: 0 auto;
 }
 .name-sub{
 	text-align: center;
-    color: #4B291A;
-    font-size: 1.5em;
-    font-family: 'Handlee', cursive;
-    font-weight: bold;
+  color: #4B291A;
+  font-size: 1.5em;
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
 }
 .note{
 	font-family: 'Ubuntu', sans-serif;
-    color: dimgrey;
-    font-weight: bold;
-    font-size: 1em;
-    text-align: center;
-    margin: 15px auto 0;
+  color: dimgrey;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin: 15px auto 0;
 }
 .note-div{
 	margin: 2px auto 5px;
-    width: 35%;
-    height: 2px;
-    background-color: #8AA095;
-    border-radius: 5px;
+  width: 35%;
+  height: 2px;
+  background-color: #8AA095;
+  border-radius: 5px;
 }
 /*#header > .content > .inner > p{
 	text-transform: uppercase;
@@ -106,12 +106,12 @@ body{
 }
 .trangchu-bg-middle{
 	margin: auto;
-    position: absolute;
-    top: 10px;
-    bottom: 10px;
-    z-index: -1;
-    background-color: #96B0A3;
-    width: 100%;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  z-index: -1;
+  background-color: #96B0A3;
+  width: 100%;
 }
 .trangchu-bg-inner{
 	margin: auto;
@@ -155,28 +155,28 @@ body{
 }
 .trangchu-tab-content{
 	position: relative;
-    display: block;
-    border-width: 30px;
-    border: 1px dashed #6C8779;
-    padding: 10px 15px;
-    display: none;
+  display: block;
+  border-width: 30px;
+  border: 1px dashed #6C8779;
+  padding: 10px 15px;
+  display: none;
 }
 .trangchu-h{
 	font-family: 'Handlee';
-    font-weight: bold;
-    font-size: 1.55em;
-    margin-bottom: -3px;
-    position: relative;
+  font-weight: bold;
+  font-size: 1.55em;
+  margin-bottom: -3px;
+  position: relative;
 }
 .trangchu-p{
 	font-family: 'McLaren';
-    font-size: 1.0em;
-    margin-bottom: 3px;
+  font-size: 1.0em;
+  margin-bottom: 3px;
 }
 .trangchu-list{
 	font-family: 'McLaren';
-    font-size: 0.85em;
-    margin-bottom: 3px;
+  font-size: 0.85em;
+  margin-bottom: 3px;
 }
 .img-text > .trangchu-list{
   display: flex;
@@ -184,17 +184,11 @@ body{
   justify-content: space-between;
   text-align: justify;
   background-color: #2C3333;
-/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #C69749;
 }
 .ip-server{
-/*  position: absolute;*/
   padding: 10px;
-  display: inline-block;
-  border-radius: 5px;
-  background-color: #2C3333;
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #C69749;
 }
 .img-text > .trangchu-list > p{
@@ -227,9 +221,9 @@ body{
 }
 .trangchu-sub{
 	color: #92AB9E;
-    font-size: 0.9em;
-    vertical-align: middle;
-    margin: auto auto;
+  font-size: 0.9em;
+  vertical-align: middle;
+  margin: auto auto;
 }
 .sub-trangchu-nav .active{
 	font-weight: bold;
@@ -237,12 +231,12 @@ body{
 }
 .unselectable{
 	-webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    cursor: default;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
 }
 
 #animated {
@@ -289,25 +283,25 @@ body{
 }
 .moon{
 	position: absolute;
-    margin: auto;
-    width: 170px;
-    height: 170px;
+  margin: auto;
+  width: 170px;
+  height: 170px;
 /*    background: #5749aa;*/
-    z-index: -6;
+z-index: -6;
 }
 .moon:after{
 	content: "";
-    position: absolute;
-    left: 50%;
-    top: 10%;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background: #F3F4ED;
-    opacity: 1;
-    box-shadow: 0px 0px 540px 50px #fff;
-    -webkit-animation: glowing 1.5s linear infinite;
-    animation: glowing 1.5s linear infinite alternate;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #F3F4ED;
+  opacity: 1;
+  box-shadow: 0px 0px 540px 50px #fff;
+  -webkit-animation: glowing 1.5s linear infinite;
+  animation: glowing 1.5s linear infinite alternate;
 }
 .saobang{
   transform:rotate(-45deg);
@@ -325,23 +319,23 @@ body{
   -webkit-box-shadow:0px 0px 70px 1px #fff;
   -moz-box-shadow:0px 0px 70px 1px #fff;
   -moz-animation:ShootingStarsOne 2s  linear 3s,
-    ShootingStarsTwo 2s  linear 9s;
+  ShootingStarsTwo 2s  linear 9s;
   -ms-animation:ShootingStarsOne 2s  linear 3s,
-    ShootingStarsTwo 2s  linear 9s;
+  ShootingStarsTwo 2s  linear 9s;
   -o-animation: ShootingStarsOne 2s  linear 3s,
-    ShootingStarsTwo 2s  linear 9s;
+  ShootingStarsTwo 2s  linear 9s;
   animation:ShootingStarsOne 2s  linear 3s,
-    ShootingStarsTwo 2s  linear 6s,
-    ShootingStarsOne 2s  linear 10s,ShootingStarsTwo 2s  linear 15s,
-     ShootingStarsOne 2s  linear 20s,
-    ShootingStarsTwo 2s  linear 25s,
-    ShootingStarsOne 2s  linear 32s,ShootingStarsTwo 2s  linear 40s;
-    -webkit-animation:ShootingStarsOne 2s  linear 3s,
-    ShootingStarsTwo 2s  linear 6s,
-    ShootingStarsOne 2s  linear 10s,ShootingStarsTwo 2s  linear 15s,
-     ShootingStarsOne 2s  linear 20s,
-    ShootingStarsTwo 2s  linear 25s,
-    ShootingStarsOne 2s  linear 32s,ShootingStarsTwo 2s  linear 40s;
+  ShootingStarsTwo 2s  linear 6s,
+  ShootingStarsOne 2s  linear 10s,ShootingStarsTwo 2s  linear 15s,
+  ShootingStarsOne 2s  linear 20s,
+  ShootingStarsTwo 2s  linear 25s,
+  ShootingStarsOne 2s  linear 32s,ShootingStarsTwo 2s  linear 40s;
+  -webkit-animation:ShootingStarsOne 2s  linear 3s,
+  ShootingStarsTwo 2s  linear 6s,
+  ShootingStarsOne 2s  linear 10s,ShootingStarsTwo 2s  linear 15s,
+  ShootingStarsOne 2s  linear 20s,
+  ShootingStarsTwo 2s  linear 25s,
+  ShootingStarsOne 2s  linear 32s,ShootingStarsTwo 2s  linear 40s;
 }
 .saobang:after{
   content: "";
@@ -403,7 +397,7 @@ body{
   position: absolute;
   border-radius:50%;
   left:-50%;
-    background: #99B19C;
+  background: #99B19C;
 
 }
 .star-bottom{
@@ -422,7 +416,7 @@ body{
   top:50%;
   position: absolute;
   border-radius:50%;
-    background: #99B19C;
+  background: #99B19C;
 
 }
 .star-bottom:after{
@@ -433,7 +427,7 @@ body{
   top:50%;
   position: absolute;
   border-radius:50%;
-    background: #99B19C;
+  background: #99B19C;
 
 }
 .bigstar{
@@ -545,42 +539,42 @@ footer {
 @keyframes ShootingStarsOne {
   from {opacity:1;width:150px;left:80%;top:-500px;
     -webkit-transform:rotate(-45deg) height}
-  to {opacity:0; width:350px;left:-50%;top:550px;
-    -webkit-transform:rotate(-20deg)}
-}
+    to {opacity:0; width:350px;left:-50%;top:550px;
+      -webkit-transform:rotate(-20deg)}
+    }
 
-@-webkit-keyframes ShootingStarsOne {
-  from {opacity:1; width:150px;left:80%;top:-500px;
-    -webkit-transform:rotate(-45deg) height}
-  to {opacity:0; width:350px;left:-50%;top:550px;
-    -webkit-transform:rotate(-20deg)}
-}
+    @-webkit-keyframes ShootingStarsOne {
+      from {opacity:1; width:150px;left:80%;top:-500px;
+        -webkit-transform:rotate(-45deg) height}
+        to {opacity:0; width:350px;left:-50%;top:550px;
+          -webkit-transform:rotate(-20deg)}
+        }
 
-@-webkit-keyframes ShootingStarsTwo {
-  from {opacity:1; width:150px;left:120%;top:-500px;
-    -webkit-transform:rotate(-45deg) height}
-  to {opacity:0; width:350px;left:45%;top:550px;
-    -webkit-transform:rotate(-40deg)}
-}
+        @-webkit-keyframes ShootingStarsTwo {
+          from {opacity:1; width:150px;left:120%;top:-500px;
+            -webkit-transform:rotate(-45deg) height}
+            to {opacity:0; width:350px;left:45%;top:550px;
+              -webkit-transform:rotate(-40deg)}
+            }
 
-@-moz-keyframes ShootingStarsTwo {
-  from {opacity:1; width:150px;left:120%;top:-500px;
-    -moz-transform:rotate(-45deg) height}
-  to {opacity:0; width:350px;left:45%;top:550px;
-    -moz-transform:rotate(-40deg)}
-}
+            @-moz-keyframes ShootingStarsTwo {
+              from {opacity:1; width:150px;left:120%;top:-500px;
+                -moz-transform:rotate(-45deg) height}
+                to {opacity:0; width:350px;left:45%;top:550px;
+                  -moz-transform:rotate(-40deg)}
+                }
 
 
-@-moz-keyframes ShootingStarsTwo {
-  from {opacity:0; width:150px;left:120%;top:-500px; 
-    -moz-transform:rotate(-45deg) height}
-  to {opacity:1; width:350px;left:45%;top:550px;
-    -moz-transform:rotate(-40deg)}
-} 
+                @-moz-keyframes ShootingStarsTwo {
+                  from {opacity:0; width:150px;left:120%;top:-500px; 
+                    -moz-transform:rotate(-45deg) height}
+                    to {opacity:1; width:350px;left:45%;top:550px;
+                      -moz-transform:rotate(-40deg)}
+                    } 
 
-@keyframes ShootingStarsTwo {
-  from {opacity:1; width:150px;left:120%;top:-500px;
-    transform:rotate(-45deg) height}
-  to {opacity:0; width:350px;left:45%;top:550px;
-    transform:rotate(-40deg)}
-}
+                    @keyframes ShootingStarsTwo {
+                      from {opacity:1; width:150px;left:120%;top:-500px;
+                        transform:rotate(-45deg) height}
+                        to {opacity:0; width:350px;left:45%;top:550px;
+                          transform:rotate(-40deg)}
+                        }
